@@ -415,6 +415,15 @@ img {
     background-color: yellow;
 }
 
+.neon hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #FE00D0;
+    border-style:dotted solid double dashed;
+    margin: 1em 0;
+    padding: 0; 
+}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
