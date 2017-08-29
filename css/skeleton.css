@@ -396,35 +396,6 @@ hr {
   display: table;
   clear: both; }
 
-/* New New New from Aryon
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-img {
-    width: 100%;
-    height: auto;
-}
-
-.playfair {
-  font-family: 'Playfair Display', serif;
-}
-
-.big-text-body {
-  font-size: 1em;
-}
-
-.neon {
-    background-color: yellow;
-}
-
-.neon hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #FE00D0;
-    border-style:dotted solid double dashed;
-    margin: 1em 0;
-    padding: 0; 
-}
-
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
@@ -462,3 +433,38 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+/* New New New from Aryon
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+img {
+    width: 100%;
+    height: auto;
+}
+
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.big-text-body {
+  font-size: 1em;
+}
+
+.neon {
+    background-color: yellow;
+}
+
+.neon hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #FE00D0;
+    border-style:dotted solid double dashed;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+@media (min-width: 550px)
+.neon .big-text-body {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
