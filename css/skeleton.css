@@ -411,6 +411,9 @@ img {
   font-size: 1em;
 }
 
+body .neon {
+    background-color: yellow;
+}
 
 
 /* Media Queries
