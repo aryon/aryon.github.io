@@ -463,6 +463,11 @@ img {
     padding: 0; 
 }
 
+.workout  {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 @media (min-width: 550px)
 .neon .big-text-body {
     font-size: 1.5em;
